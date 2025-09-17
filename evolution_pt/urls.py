@@ -23,4 +23,5 @@ urlpatterns = [
     path('gallery/', include('gallery.urls'), name='gallery-urls'),
     path('contact/', include('contact.urls'), name='contact-urls'),
     path('admin/', admin.site.urls),
+    path('summernote/', include('django_summernote.urls')),
 ]
