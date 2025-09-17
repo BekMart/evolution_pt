@@ -1,0 +1,1 @@
+web: gunicorn evolution_pt.wsgi
